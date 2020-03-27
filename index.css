@@ -1,0 +1,15 @@
+h1 {text-align: center;}
+	
+	ul {list-style: none;}
+ body {background-image: url('1.png'); background-attachment: fixed;background-size: cover;: }
+  *{font-family: 'Permanent Marker', cursive;
+	color:red;
+	font-size:30px;
+	text-shadow:2px 2px 5px black;
+	animation-name:example;
+	animation-duration:50s;}
+@keyframes example{
+	  0%   {color: white;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
